@@ -1,0 +1,355 @@
+/* ------------------FIxed-dedicated--------------- */
+.services-hero {
+    margin-top: 20px;
+    padding: 0px 100px;
+    padding-bottom: 30px;
+    display: flex;
+    gap: 104px;
+
+}
+
+.services-hero-left {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.services-card1 {
+    width: 696px;
+    padding: 15px;
+    padding-bottom: 34px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+
+}
+
+.service-hero-heading1 {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #212121;
+}
+
+.hero-mg {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero-mg-right {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.hero-mg-right p {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #424242;
+}
+
+.services-hero-demand-para {
+    margin-top: 15px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #424242;
+}
+
+.servise-hero-demand-blue {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    height: 33px;
+    background: #4472C4;
+}
+
+.servise-hero-demand-blue p {
+    margin-left: 15px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.service-hero-heading2 {
+    margin-top: 9px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #424242;
+}
+
+.servives-hero-checkcards {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.shc-top-space {
+    display: flex;
+    gap: 25px;
+}
+
+.shc-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.shc-top p {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #424242;
+}
+
+.shc-bottom {
+    display: flex;
+    gap: 25px;
+    margin-top: 15px;
+
+}
+
+/* -----------------------dedicated desk----------------------- */
+.dedicated-card {
+    padding: 15px;
+    width: 666px;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+.dlimg {
+    position: absolute;
+}
+
+.dedi-popular {
+    position: relative;
+    top: 15px;
+}
+
+.dedileftimg {
+    position: relative;
+    right: 70px;
+    top: 94px;
+}
+
+.dedirightimg {
+    position: relative;
+    left: 130px;
+    top: 94px;
+}
+
+.dedi-header {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+
+    color: #212121;
+}
+
+.dedi-para {
+    margin-top: 7px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #90A4AE;
+}
+
+.dedi-address {
+    margin-top: 16px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.dedi-address p {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #424242;
+}
+
+.dedi-desk {
+    margin-top: 12px;
+    width: 379.4px;
+    background: #F0F2F3;
+    display: flex;
+    gap: 80px;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.dedi-desk-right {
+    padding-left: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.dedi-desk-right p {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    color: #093243;
+}
+
+.dedi-desk-right h1 {
+    margin-top: 7px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #093243;
+}
+
+.dedi-services-img {
+    margin-top: 13px;
+    cursor: pointer;
+    margin-bottom: 14px;
+}
+
+
+/* -------------------Why-Choose------------------- */
+.service-choose-padding{
+    padding-left: 100px;
+    padding-bottom: 40px;
+}
+.services-why-chooose {
+    background: #177B57;
+    width: 800px;
+    padding: 15px;
+
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+
+}
+
+.services-why-header {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #FFFFFF;
+}
+
+
+.services-why-content {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+
+}
+
+.services-why-top {
+    display: flex;
+    gap: 40px;
+}
+
+.services-why-down {
+    display: flex;
+    gap: 40px;
+}
+
+.services-largest {
+    display: flex;
+}
+.services-largest img{
+    width: 40px;
+    height: 40px;
+}
+
+.services-largestleft {
+    display: flex;
+    /* align-items: center; */
+    margin-right: 20px;
+}
+
+.services-largest-heading {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.services-largest-para {
+    margin-top: 15px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    
+}
+/* -------------dedicated last card------------------ */
+.dedicated-last-card-padding{
+    padding-left: 100px;
+    padding-bottom: 70px;
+}
+
+.padd{
+    padding: 0 100px;
+}

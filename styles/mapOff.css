@@ -1,0 +1,36 @@
+.mapOff-sec2 {
+    padding: 0px 100px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 27px;
+    margin-top: 40px;
+    margin-bottom: 55px;
+}
+
+.fixed-desk-card1 {
+    max-width: 605px;
+    padding: 14.5px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    display: flex;
+    gap: 15px;
+    margin-left: 1px;
+}
+
+.dedi-desk1{
+    margin-top: 12px;
+    width: 290px;
+    background: #F0F2F3;
+    display: flex;
+    gap: 40px;
+    padding: 12px 16px;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.dedi-desk1 h1{
+    color: #23976D;
+}
+

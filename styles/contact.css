@@ -1,0 +1,747 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,300;0,400;0,500;1,100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Libre Franklin', sans-serif;
+
+}
+
+select {
+    border: none;
+
+}
+
+textarea {
+    border: none;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+input:focus::placeholder{
+    color: transparent;
+}
+.messege textarea:focus::placeholder{
+    color: transparent;
+}
+
+.main {
+    max-width: 1440px;
+    margin: 0 auto;
+
+    background: #FFFFFF;
+    /* border: 1px solid red; */
+}
+
+.container-one {
+    /* background: #F5F5F5;; */
+    padding: 0 100px;
+
+    /* border: 1px solid red; */
+
+}
+
+/* navbar  */
+.nav-bar {
+    margin-top: 29.55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+#home {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+    text-align: center;
+    letter-spacing: -0.011em;
+
+    /* Primary-color */
+
+    color: #177B57;
+}
+
+.items ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.items ul li {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+    text-align: center;
+    letter-spacing: -0.011em;
+
+    color: #666666;
+}
+
+.nav-btn button {
+    border-style: none;
+    padding-top: 8px;
+    padding-bottom: 9px;
+    padding-left: 29px;
+    padding-right: 28px;
+    background: #177B57;
+    /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25); */
+    border-radius: 8px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    /* identical to box height, or 27px */
+
+    text-align: center;
+    letter-spacing: -0.011em;
+
+    color: #F5F5F5;
+}
+
+/* navbar close */
+
+/* <!-----CONTACT PAGE  --> */
+.contact-reserved {
+    margin: 0 100px;
+    width: 1316px;
+    display: flex;
+    gap: 107px;
+    background: #F5F5F5;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
+.reserved-heading {
+    margin-top: 50px;
+}
+
+.reserved-heading p {
+    padding-top: 50px;
+    padding-bottom: 17.14px;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 41px;
+
+    color: #000000;
+}
+
+.reserved-para {
+
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+
+    color: #212121;
+}
+
+.reserved-input {
+    margin-top: 25.14px;
+    display: flex;
+    gap: 88px;
+    width: 48.8px;
+
+
+}
+
+.left-input {
+    position: relative;
+    width: 235px;
+    height: 40px;
+}
+
+.left-input img {
+    position: absolute;
+    left: 37px;
+    top: 48px;
+}
+
+.left-input p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #666666;
+}
+
+.right-input p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #666666;
+}
+
+
+
+.left-input input {
+    /* padding: 12px 0; */
+    padding-left: 74px;
+    width: 235px;
+    height: 40px;
+}
+
+.right-input {
+    position: relative;
+}
+
+select {
+    padding-left: 74px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #666666;
+
+    /* position: relative; */
+
+}
+.contact-reserved-outer{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.cospace-dropdown {
+    position: relative;
+}
+.cospace-dropdown .co-val select{
+    /* padding-left: 20px; */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url('/assets/mapMode/option-shevron.png');
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-position-x: 660px;
+}
+
+.co-img {
+    position: absolute;
+    top: 46px;
+    left: 39px;
+}
+
+.right-input img {
+    position: absolute;
+    top: 48px;
+    right: 296px;
+}
+
+.right-input input {
+    /* padding: 12px 0; */
+    /* border: 1px solid red; */
+    padding-left: 74px;
+    padding-top: 11px;
+    padding-bottom: 13px;
+}
+
+.reserved-input .left-input input {
+    width: 235px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.reserved-input .right-input input {
+    width: 284px;
+    /* height: 40px; */
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.reserved-input p {
+    margin-bottom: 14.31px;
+}
+
+.cospace-dropdown p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #666666;
+}
+
+
+
+.cospace-dropdown select {
+    background: #FFFFFF;
+    border-radius: 8px;
+    width: 686px;
+    height: 48.28px;
+}
+
+.cospace-dropdown select option {
+    padding: 10px 10px;
+}
+
+
+
+.cospace-dropdown p {
+    margin-top: 16.24px;
+    margin-bottom: 9.62px;
+}
+
+.phonenumber p {
+    margin-top: 17.24px;
+    margin-bottom: 12.93px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #666666;
+}
+
+.phonenumber input {
+    /* padding: 16px 0px; */
+    /* width: 613px; */
+    height: 48.28px;
+
+    padding-left: 74px;
+}
+
+.phonenumber {
+    position: relative;
+}
+
+.phonenumber img {
+    position: absolute;
+    top: 50px;
+    left: 35px;
+}
+
+
+.phonenumber input {
+    margin-bottom: 7.24px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    width: 613px;
+    height: 48.28px;
+}
+
+.messege textarea::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #666666;
+
+
+}
+
+.messege p {
+    margin-top: 7.24px;
+    margin-bottom: 22.93px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #666666;
+}
+
+.messege {
+    position: relative;
+    margin-bottom: 50px;
+    margin-top: 15px;
+}
+
+.messege img {
+    position: absolute;
+    top: 67px;
+    left: 35px;
+}
+
+.messege textarea {
+    /* margin-bottom: 50.49px; */
+    width: 611px;
+    padding-top: 20px;
+    padding-left: 74px;
+    height: 117.41px;
+    overflow: hidden;
+    outline: none;
+}
+
+.submit button {
+    background: #177B57;
+    border-radius: 8px;
+    width: 685px;
+    height: 43.97px;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+
+    text-align: center;
+    letter-spacing: -0.011em;
+
+    color: #FFFFFF;
+}
+
+
+.contact-reserved {
+    margin: 0 100px;
+   
+}
+
+.reserved-right {
+    /* border: 1px solid red; */
+    margin-top: 151px;
+}
+
+.call {
+    margin-bottom: 45px;
+}
+
+.call-head {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+    /* identical to box height, or 89% */
+
+    display: flex;
+    align-items: center;
+
+    color: #212121;
+    margin-bottom: 8px;
+
+}
+
+.time {
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+    display: flex;
+    align-items: center;
+
+    color: #90A4AE;
+    margin-bottom: 8px;
+}
+
+.call-para {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+    display: flex;
+    align-items: center;
+
+    color: #90A4AE;
+    margin-bottom: 8px;
+}
+
+.call-phone {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height, or 150% */
+
+    display: flex;
+    align-items: center;
+
+    /* main */
+
+    color: #177B57;
+}
+
+.email-head {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+    /* identical to box height, or 89% */
+
+    display: flex;
+    align-items: center;
+
+    color: #212121;
+    margin-bottom: 8px;
+
+}
+
+.email-para {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+    display: flex;
+    align-items: center;
+
+    color: #90A4AE;
+    margin-bottom: 8px;
+}
+
+.email-us {
+    margin-bottom: 45px;
+}
+
+.mail {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+
+
+    color: #177B57;
+}
+
+.address {
+    margin-bottom: 45px;
+}
+
+.address-head {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+    /* identical to box height, or 89% */
+
+    display: flex;
+    align-items: center;
+
+    color: #212121;
+    margin-bottom: 8px;
+}
+
+.street {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+    display: flex;
+    align-items: center;
+
+    color: #90A4AE;
+
+}
+
+.any-ques {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+    /* identical to box height, or 89% */
+
+    display: flex;
+    align-items: center;
+
+    color: #212121;
+    margin-bottom: 8px;
+}
+
+.faq {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height, or 150% */
+
+    display: flex;
+    align-items: center;
+
+    /* main */
+
+    color: #177B57;
+
+}
+
+/* <!-----CONTACT PAGE   --> */
+
+
+
+/* -----------------Footer------------------- */
+.footer {
+    background: #313131;
+}
+
+.white-line {
+    margin: 0px 160px;
+    height: 1px;
+    width: 1120;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.top-footer {
+    padding: 60px 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.fp1 {
+    margin-top: 20px;
+    width: 306px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+.footer-number-para {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+
+}
+
+.footer-mail-para {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+
+}
+
+.phone-para1 {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.phone-para2 {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-links h1 {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.footer-services {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-links p {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #F6F6F6;
+}
+
+.footer-services h1 {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.footer-services p {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #F6F6F6;
+}
+
+.footer-getin {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-getin h1 {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.input-mail {
+    margin-top: 20px;
+    position: relative;
+}
+
+.footer-mail-icon {
+    position: absolute;
+    left: 245px;
+    top: 13px;
+}
+
+.footer-getin input {
+    width: 292px;
+    height: 46px;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.footer-getin input::placeholder {
+    padding-left: 24px;
+}
+
+.footer-getin p {
+    margin-top: 30px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+
+}
+
+.footer-icons {
+    margin-top: 21px;
+    display: flex;
+    gap: 19px;
+}
+
+.down-footer {
+    padding: 15px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
